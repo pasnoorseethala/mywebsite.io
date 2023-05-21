@@ -112,10 +112,13 @@ header{
 .HeroSectionContent h1{
     display: flex;
     justify-content: center;
-    font-size: 60px;
+    font-size: 48px;
+    font-weight:600 ;
     padding: 16px 48px 16px 48px;
     color: white;
     background-color:#161617;
+    
+
   
     
 }
@@ -207,7 +210,8 @@ background-color: #161617;
     display: flex;
     color:black;
     justify-content: center;
-    font-size: 60px;
+    font-size: 48px;
+    font-weight:600 ;
     background-color:#E6E6FA;
   
     
@@ -293,7 +297,8 @@ background-color: #161617;
         display: flex;
         color:black;
         justify-content: center;
-        font-size: 60px;
+        font-size: 48px;
+    font-weight:600 ;
         background-color:#F5F5F5;
       
         
@@ -450,7 +455,12 @@ background-color: #161617;
           
          }
          
-         
+         h4{
+          text-align: center;
+           background: white;
+           padding-top:15px;
+           font-size: 20x;
+         }
          
          
          
@@ -543,10 +553,11 @@ background-color: #161617;
           justify-content: space-between;
           gap: 30px;
           padding: 48px;
-          background-color:#E6E6FA;
+          background-color:white;
          
 
       }
+      
    
       
 
@@ -594,7 +605,7 @@ background-color: #161617;
           color:black;
           justify-content: center;
           font-size: 30px;
-          background-color:#E6E6FA;
+          background-color:white;
          }
          .secondcardsimage {
           display: flex;
@@ -611,20 +622,21 @@ background-color: #161617;
           justify-content: space-between;
           gap: 20px;
           padding:48px;
-          background-color: #F5F5F5;
+          background-color:white;
          }
 
          .cardthree img {
-          box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+          box-shadow: rgba(white);
           border: 1px solid #e0e0e0;
           height: 100px;
           width: 150px;
           border-radius: 10px;
           padding:10px;
-          background: #E6E6FA;
+          background: white;
         }
         div .cardthreehover {
           transition: all 1s ease;
+          background:white;
         }
       
         
@@ -644,30 +656,136 @@ background-color: #161617;
           color:black;
           justify-content: center;
           font-size: 30px;
-          background-color: #E6E6FA;
+          background-color:white;
 
         }
     
        
    
-
+/* footer */
          
 
+.footer{
+  
+  background: #303036;
+  color: #d3d3d3;
+  
+  
+}
+.footer , .footer_content , .footer_section{
+  
+  padding: 25px;
+  background-color: #303036;
+  flex:1;
+}
 
+div .footer_content{
+  display: flex;
+  background: #303036;
+ 
+  
+}
+.phone_email{
+  background: #303036;
+}
+.phone_email span{
+  font-size: 12.5px;
+  font-weight: 300;
+  background: #303036;
+}
+.footer_logo{
+  background-color: #303036;
+  font-weight: 500;
+  font-size: 15px;
+}
+ .footer_description{
+  padding-top: 10px;
+   background: #303036;
+   padding-top: 10px;
+   font-size: 12.5px;
+   font-weight: 300;
+ }
+ div .phone_email{
+  padding-top:10px ;
+ }
+ div .social_media{
+  background: #303036;
+  padding-top: 10px;
+  font-size: 12.5px;
+  font-weight: 300;
+ }
+ .social_media i{
+  color: white;
+  
+ }
+ .links h5{
+  background: #303036;
+  padding-bottom: 10px;
+  font-weight: 500;
+  font-size: 15px;
+ }
+ .links a{
+  display: flex;
+  flex-direction: column;
+  background: #303036;
+  color: #d3d3d3;
+  font-size: 12.5px;
+  padding-bottom:2px;
+  text-decoration: underline;
+ }
+ .contact-form h5{
+  background: #303036;
+  font-weight: 500;
+    font-size: 15px;
+ }
+.form{
+  background:#303036 ;
+  flex: 1;
+  flex-direction: column;
+}
+div.your_email{
+  background: #303036;
+}
+div.your_message{
+  background: #303036;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+#fname{
+  border-radius:5px;
+  padding:5px 10px;
+  border: solid 1px #d3d3d3 ;
+  margin-bottom: 10px;
+  background:white;
+  width: 200px;
+  height: 25px;
+  
+}
+textarea{
+  margin-top: 5px;
+  border-radius:5px;
+  padding:5px 10px;
+  border: solid 1px #d3d3d3 ;
+  margin-bottom: 10px;
+  background:white;
+  width: 200px;
+  height: 25px;
+}
+.last_button{
+  background: #303036;
+}
+.last_button button{
+ 
+  justify-content: center;
+  background-color: white;
+}
+.lastbutton{
+  padding:3px 7px;
+  border-radius: 5px;
+ 
+}
+div.footer_section.contact-form{
+  margin-left: 550px;
+}
 
      /* .section3 {
       width: 100%;
