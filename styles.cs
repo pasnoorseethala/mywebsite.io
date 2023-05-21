@@ -498,49 +498,7 @@ background-color: #161617;
           background-color: #161617;
          }
 
-/* 
-         .section4title{
-          padding-top: 48px;
-          display: flex;
-          color:black;
-          justify-content: center;
-          font-size: 60px;
-          background-color:white;
 
-         }
-         .OurCustomers{
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-          align-items: center;
-          padding: 48px;
-          
-         }
-         .OurCustomers img{
-          width: 180px;
-          background: none;
-         } */
-
-         .cardtwo {
-          width: 190px;
-          height: 254px;
-          background: rgb(38, 38, 38);
-          box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.333);
-        }
-        
-        .imge {
-          height: 70px;
-          background-color: #ff5858;
-        }
-
-        .Description {
-          border-color: #141414;
-          background-color: #414141;
-          transform: translate(5px, 6px);
-          width: 180px;
-          height: 130px;
-          border-radius: 5px;
-        }
         
 
         /* cardstwo */
@@ -787,71 +745,4 @@ div.footer_section.contact-form{
   margin-left: 550px;
 }
 
-     /* .section3 {
-      width: 100%;
-      height: 450px;
-      background: #ccc;
-      margin: 0;
-      padding: 0;
-    }
-    
-    .slide-show-container {
-      height: 100%;
-      width: 100%;
-      position: relative;
-    } */
-    /* CSS Styles in common for all slides */
-    /* .wrapper-one,
-    .wrapper-two,
-    .wrapper-three {
-      background-color: #eee;
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 100%;
-      width: 100%;
-      position: absolute;
-    }
-     */
-    /* CSS Styles for each slide */
-    /* Just add the image as background attribute and add some animation */
-    
-    /* .wrapper-one {
-        background-image: url("http://www.stnlatam.com/images/pitch/pitch1.jpg");
-    }
-    
-    .wrapper-two {
-        background-image: url("http://www.stnlatam.com/images/pitch/pitch2.jpg");
-      animation: slideTwoAnim 20s infinite;
-    }
-    
-    .wrapper-three {
-        background-image: url("http://www.stnlatam.com/images/pitch/pitch3.jpg");
-      animation: slideThreeAnim 20s infinite;
-    } */
-    
-    /* Styles for the text */
-    /* .wrapper-text {
-      font: 700 40px/1.4 Roboto;
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
-      margin-top: 150px;
-    }
-     */
-    /* Animations */
-    /* @keyframes slideTwoAnim {
-        0%{opacity:0;}
-        17%{opacity:0;}
-        33%{opacity:1;}
-        50%{opacity:1;}
-        67%{opacity:0;}
-        100%{opacity:0;}
-    }
-    
-    @keyframes slideThreeAnim {
-        0%{opacity:0;}
-        50%{opacity:0;}
-        67%{opacity:1;}
-        83%{opacity:1;}
-        100%{opacity:0;}
-    } */
+     
